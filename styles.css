@@ -1,0 +1,139 @@
+body {
+    background-color: #607194;
+
+}
+
+section {
+    background: #242e49;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.flex-container {
+    display: flex;                                     
+    gap: 10px;                   
+                                    
+    background: #F5F2EB;         
+    border-radius: 10px;         
+    padding: 10px;               
+    min-height: 40px;    
+    }
+
+.flex-item {
+    background: #C8102E;
+    color: #F5F2EB; 
+    border-radius: 6px;
+    padding: 30px;        
+    height: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.0rem;
+    transition: transform 0.2s;  
+    font: sans-serif;                 
+}
+
+.flex-item:hover {
+    transform: scale(1.05); 
+    background: #8d0b21; 
+    }
+
+#encabezado {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%; 
+
+}
+#encabezado img {
+    width: 140px;
+    height: 70px;
+    margin-bottom: 10px; 
+}
+
+#banner {
+    width: 99%;
+    max-width: 1400px;
+    height: 500px;
+    margin: 15px auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #D4A359;
+    }
+
+    .card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    }
+
+.card {
+    flex: 1 1 250px;
+    background: #f3ecdb; 
+    border: 1px solid #D4A359;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(233, 69, 96, 0.3);
+}
+
+
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h3 {
+    margin-bottom: 10px;
+    color: #C8102E;
+}
+
+.card-body p {
+    font-size: 15px;
+    color: #2B2B2B;
+    line-height: 1.5;
+  
+}
+
+.card-body button {
+    margin-top: 15px;
+    background: #8B5A2B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.card-body button:hover {
+    background: #6e4722;
+}
+
+.centered-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    background: #242e49;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.centered-content {
+    background: #C8102E;
+   border: 3px solid #F5F2EB;
+    padding: 50px 300px;
+    border-radius: 8px;  
+    color: #F5F2EB; 
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+   
